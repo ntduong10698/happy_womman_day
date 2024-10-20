@@ -149,6 +149,20 @@ body {
   -webkit-animation-delay: 1.7s;
           animation-delay: 1.7s;
 }
+
+.flower--5 {
+  left: 45%;
+  transform: rotate(-10deg);
+  -webkit-animation: moving-flower-3 4s linear infinite;
+          animation: moving-flower-3 4s linear infinite;
+}
+
+.flower--5 .flower__line {
+  height: 35vmin;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
 .flower__leafs::after {
   content: "";
   position: absolute;
