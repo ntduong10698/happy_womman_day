@@ -163,6 +163,17 @@ body {
           animation-delay: 0.3s;
 }
 
+.flower--6 {
+  left: 60%;
+  transform: rotate(30deg);
+}
+
+.flower--6 .flower__line {
+  height: 40vmin;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
 .flower__leafs::after {
   content: "";
   position: absolute;
